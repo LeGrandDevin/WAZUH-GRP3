@@ -1,5 +1,7 @@
 Ce projet permet de configurer et d'utiliser Ansible comme outil d'automatisation pour déployer et configurer le système de détection d'intrusion Wazuh.
 
+Les scripts d'installation vous demanderont vos identifiants, pensez à les préparer avant de lancer les scripts.
+
 Pour commencer il faut configurer le remote system.
 On commence par cloner le script puis on l'exécute.
 
