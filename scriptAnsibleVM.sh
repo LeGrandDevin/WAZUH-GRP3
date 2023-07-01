@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #1st VM Debian for Ansible
 #This script must be executed after scriptWazuhVM.sh is executed on the remote server
 
@@ -15,10 +17,15 @@ apt-get update
 #Install ansible
 apt-get install ansible
 
+#Ask for credentials
+read -p 'Enter your username: ' your_username
+read -sp 'Enter your password: ' your_passwd
+read -p 'Ip Address: ' your_ipaddr
+
 #Switch to root and navigate to the $HOME directory
 sudo su
-expect "password: " 
-send "root\r"
+expect "password: "
+send "${your_passwd}\r"
 cd ~
 
 #Generate an authentication key pair for SSH
