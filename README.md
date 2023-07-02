@@ -9,21 +9,21 @@ On commence par cloner le script puis on l'exécute.
 
 ```
 sudo git clone --branch https://github.com/LeGrandDevin/WAZU-GRP3/scriptWazuhVM.sh
-scriptWazuhVM.sh
+. scriptWazuhVM.sh
 ```
 
 Ensuite il faut configurer Ansible et installer Wazuh sur le remote system.
 
 ```
 sudo git clone --branch https://github.com/LeGrandDevin/WAZU-GRP3/scriptAnsibleVM.sh
-scriptAnsibleVM.sh
+. scriptAnsibleVM.sh
 ```
 
 Puis il faut configurer les règles OSSEC sur le remote system
 
 ```
 sudo git clone --branch https://github.com/LeGrandDevin/WAZU-GRP3/scriptOSSECruleset.sh
-scriptOSSECruleset.sh
+. scriptOSSECruleset.sh
 ```
 
 Pour terminer il faut mettre en place un script permettant d'update les règles OSSEC toutes les semaines.
