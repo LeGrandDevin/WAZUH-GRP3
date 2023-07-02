@@ -4,13 +4,7 @@
 
 
 #Ask for credentials
-read -sp 'Enter your password: ' your_passwd
 read -s 'Enter the email address where you want to receive the alerts: ' your_mail
-
-sudo su
-expect 'password: '
-send "${your_passwd}/r"
-cd ~
 
 #LOG ANALYSIS
 
