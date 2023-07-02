@@ -19,14 +19,7 @@ apt-get install ansible
 
 #Ask for credentials
 read -p 'Enter your username: ' your_username
-read -sp 'Enter your password: ' your_passwd
 read -p 'Ip Address: ' your_ipaddr
-
-#Switch to root and navigate to the $HOME directory
-sudo su
-expect "password: "
-send "${your_passwd}\r"
-cd ~
 
 #Generate an authentication key pair for SSH
 ssh-keygen
