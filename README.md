@@ -30,7 +30,7 @@ Pour terminer il faut mettre en place un script permettant d'update les règles 
 
 ```
 sudo git clone --branch https://github.com/LeGrandDevin/WAZU-GRP3/wazuhAutoUpdate.sh
-wazuhAutoUpdate.sh
+. wazuhAutoUpdate.sh
 ```
 
 Si vous rencontrez des erreurs dans une des étapes du script nous avons ajouté des commentaires dans le script expliquant chaque étape.
