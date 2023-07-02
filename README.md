@@ -6,7 +6,7 @@ Les scripts d'installation vous demanderont vos identifiants, pensez à les pré
 
 Pour commencer il faut cloner le projet depuis GitHub
 ```
-sudo git clone --branch https://github.com/LeGrandDevin/WAZU-GRP3
+sudo git clone https://github.com/LeGrandDevin/WAZU-GRP3
 ```
 
 Puis il faut configurer le remote system.
