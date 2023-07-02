@@ -22,22 +22,24 @@ cd WAZUH-GRP3-WAZUH
 sudo . scriptWazuhVM.sh
 ```
 
-Ensuite il faut configurer Ansible et installer Wazuh sur le remote system.
+Ensuite il faut configurer Ansible et installer Wazuh sur le system Ansible.
 
 ```
 cd WAZUH-GRP3-ANSIBLE
 sudo . scriptAnsibleVM.sh
 ```
 
-Puis il faut configurer les règles OSSEC sur le remote system
+Puis il faut configurer les règles OSSEC sur le remote system.
 
 ```
+cd WAZUH-GRP3-WAZUH
 sudo . rulesetConfiguration.sh
 ```
 
-Pour terminer il faut mettre en place un script permettant d'update les règles OSSEC toutes les semaines.
+Pour terminer il faut mettre en place un script permettant d'update les règles OSSEC toutes les semaines sur le remote system.
 
 ```
+cd WAZUH-GRP3-WAZUH
 sudo . wazuhAutoUpdate.sh
 ```
 
