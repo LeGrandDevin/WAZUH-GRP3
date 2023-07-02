@@ -4,32 +4,32 @@ Ce projet permet de configurer et d'utiliser Ansible comme outil d'automatisatio
 
 Les scripts d'installation vous demanderont vos identifiants, pensez à les préparer avant de lancer les scripts.
 
-Pour commencer il faut configurer le remote system.
-On commence par cloner le script puis on l'exécute.
+Pour commencer il faut cloner le projet depuis GitHub
+```
+sudo git clone --branch https://github.com/LeGrandDevin/WAZU-GRP3
+```
+
+Puis il faut configurer le remote system.
 
 ```
-sudo git clone --branch https://github.com/LeGrandDevin/WAZU-GRP3/scriptWazuhVM.sh
 sudo . scriptWazuhVM.sh
 ```
 
 Ensuite il faut configurer Ansible et installer Wazuh sur le remote system.
 
 ```
-sudo git clone --branch https://github.com/LeGrandDevin/WAZU-GRP3/scriptAnsibleVM.sh
 sudo . scriptAnsibleVM.sh
 ```
 
 Puis il faut configurer les règles OSSEC sur le remote system
 
 ```
-sudo git clone --branch https://github.com/LeGrandDevin/WAZU-GRP3/scriptOSSECruleset.sh
 sudo . scriptOSSECruleset.sh
 ```
 
 Pour terminer il faut mettre en place un script permettant d'update les règles OSSEC toutes les semaines.
 
 ```
-sudo git clone --branch https://github.com/LeGrandDevin/WAZU-GRP3/wazuhAutoUpdate.sh
 sudo . wazuhAutoUpdate.sh
 ```
 
