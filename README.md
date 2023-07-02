@@ -32,7 +32,7 @@ sudo . scriptAnsibleVM.sh
 Puis il faut configurer les règles OSSEC sur le remote system
 
 ```
-sudo . scriptOSSECruleset.sh
+sudo . rulesetConfiguration.sh
 ```
 
 Pour terminer il faut mettre en place un script permettant d'update les règles OSSEC toutes les semaines.
