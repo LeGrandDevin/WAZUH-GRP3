@@ -8,7 +8,7 @@ Pour le bon fonctionnement des script veuillez vous assurer que votre système u
 
 Pour commencer il faut cloner le projet depuis GitHub.
 ```
-sudo git clone https://github.com/LeGrandDevin/WAZU-GRP3
+sudo git clone https://github.com/LeGrandDevin/WAZUH-GRP3
 ```
 
 Puis il faut configurer le remote system.
