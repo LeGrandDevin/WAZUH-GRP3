@@ -6,20 +6,26 @@ Les scripts d'installation vous demanderont vos identifiants, pensez à les pré
 
 Pour le bon fonctionnement des script veuillez vous assurer que votre système utilise la commande sudo sinon passez en root avant d'exécuter les scripts.
 
-Pour commencer il faut cloner le projet depuis GitHub.
+Pour commencer il faut cloner le projet ansible sur le host ansible depuis GitHub.
 ```
-sudo git clone https://github.com/LeGrandDevin/WAZUH-GRP3
+sudo git clone https://github.com/LeGrandDevin/WAZUH-GRP3-ANSIBLE
+```
+
+```
+sudo git clone https://github.com/LeGrandDevin/WAZUH-GRP3-WAZUH
 ```
 
 Puis il faut configurer le remote system.
 
 ```
-sudo . ./wazuh/scriptWazuhVM.sh
+cd WAZUH-GRP3-WAZUH
+sudo . ./scriptWazuhVM.sh
 ```
 
 Ensuite il faut configurer Ansible et installer Wazuh sur le remote system.
 
 ```
+cd WAZUH-GRP3-ANSIBLE
 sudo . ./ansible/scriptAnsibleVM.sh
 ```
 
