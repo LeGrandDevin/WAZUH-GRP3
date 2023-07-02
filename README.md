@@ -1,10 +1,17 @@
-Le système utilisé sur les VM est Debian.
+Cette installation demande 2 machines au minimum pour fonctionner, une machine Ansible et un remote system ou sera installé Wazuh.
+Le système d'éxploitation utilisé sur les VM est Debian.
 
 Ce projet permet de configurer et d'utiliser Ansible comme outil d'automatisation pour déployer et configurer le système de détection d'intrusion Wazuh.
 
 Les scripts d'installation vous demanderont vos identifiants, pensez à les préparer avant de lancer les scripts.
 
 Pour le bon fonctionnement des script veuillez vous assurer que votre système utilise la commande sudo sinon passez en root avant d'exécuter les scripts.
+
+Avant de vous lancer dans l'installation, veuillez télécharger Git.
+```
+apt install git
+apt update
+```
 
 Pour commencer il faut cloner le dossier Ansible sur le host ansible depuis le GitHub du projet.
 ```
