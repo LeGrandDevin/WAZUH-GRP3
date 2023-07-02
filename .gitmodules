@@ -1,0 +1,3 @@
+[submodule "WAZUH-GRP3-ANSIBLE"]
+	path = WAZUH-GRP3-ANSIBLE
+	url = https://github.com/LeGrandDevin/WAZUH-GRP3-ANSIBLE.git
