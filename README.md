@@ -4,7 +4,7 @@ Ce projet permet de configurer et d'utiliser Ansible comme outil d'automatisatio
 
 Les scripts d'installation vous demanderont vos identifiants, pensez à les préparer avant de lancer les scripts.
 
-Pour commencer il faut cloner le projet depuis GitHub
+Pour commencer il faut cloner le projet depuis GitHub.
 ```
 sudo git clone https://github.com/LeGrandDevin/WAZU-GRP3
 ```
