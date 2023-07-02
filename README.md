@@ -4,7 +4,7 @@ Ce projet permet de configurer et d'utiliser Ansible comme outil d'automatisatio
 
 Les scripts d'installation vous demanderont vos identifiants, pensez à les préparer avant de lancer les scripts.
 
-Pour le bon fonctionnement des script veuillez vous assurer que votre système utilise la commande sudo ou passez en root avant d'exécuter les scripts.
+Pour le bon fonctionnement des script veuillez vous assurer que votre système utilise la commande sudo sinon passez en root avant d'exécuter les scripts.
 
 Pour commencer il faut cloner le projet depuis GitHub.
 ```
