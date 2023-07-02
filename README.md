@@ -7,6 +7,12 @@ Les scripts d'installation vous demanderont vos identifiants, pensez à les pré
 
 Pour le bon fonctionnement des script veuillez vous assurer que votre système utilise la commande sudo sinon passez en root avant d'exécuter les scripts.
 
+Avant de vous lancer dans l'installation, veuillez télécharger Git.
+```
+apt install git
+apt update
+```
+
 Pour commencer il faut cloner le dossier Ansible sur le host ansible depuis le GitHub du projet.
 ```
 sudo git clone https://github.com/LeGrandDevin/WAZUH-GRP3-ANSIBLE
