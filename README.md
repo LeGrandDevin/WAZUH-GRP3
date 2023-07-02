@@ -17,6 +17,13 @@ sudo git clone --branch https://github.com/LeGrandDevin/WAZU-GRP3/scriptAnsibleV
 scriptAnsibleVM.sh
 ```
 
+Puis il faut configurer les règles OSSEC sur le remote system
+
+```
+sudo git clone --branch https://github.com/LeGrandDevin/WAZU-GRP3/scriptOSSECruleset.sh
+scriptOSSECruleset.sh
+```
+
 Pour terminer il faut mettre en place un script permettant d'update les règles OSSEC toutes les semaines.
 
 ```
