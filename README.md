@@ -1,4 +1,4 @@
-Le système utilisé sur les VM est Debian.
+Le système d'éxploitation utilisé sur les VM est Debian.
 
 Ce projet permet de configurer et d'utiliser Ansible comme outil d'automatisation pour déployer et configurer le système de détection d'intrusion Wazuh.
 
