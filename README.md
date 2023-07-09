@@ -42,6 +42,12 @@ Puis il faut configurer les règles OSSEC sur le remote system.
 cd WAZUH-GRP3-WAZUH
 sudo . rulesetConfiguration.sh
 ```
+Il vous faut configurer un agent sur une nouvelle machine
+
+```
+cd WAZUH-GRP3-AGENT
+sudo . scriptAgentVM.sh
+```
 
 Pour terminer il faut mettre en place un script permettant d'update les règles OSSEC toutes les semaines sur le remote system.
 
