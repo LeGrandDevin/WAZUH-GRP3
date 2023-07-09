@@ -4,3 +4,6 @@
 [submodule "WAZUH-GRP3-WAZUH"]
 	path = WAZUH-GRP3-WAZUH
 	url = https://github.com/LeGrandDevin/WAZUH-GRP3-WAZUH.git
+[submodule "WAZUH-GRP3-AGENT"]
+	path = WAZUH-GRP3-AGENT
+	url = https://github.com/LeGrandDevin/WAZUH-GRP3-AGENT.git
