@@ -5,9 +5,9 @@ Le système d'éxploitation utilisé sur les VM est Debian.
 
 Ce projet permet de configurer et d'utiliser Ansible comme outil d'automatisation pour déployer et configurer le système de détection d'intrusion Wazuh.
 
-Les scripts d'installation vous demanderont vos identifiants, pensez à les préparer avant de lancer les scripts.
-
-Pour le bon fonctionnement des script veuillez vous assurer que votre système utilise la commande sudo sinon passez en root avant d'exécuter les scripts.
+> Le lancement de ces scripts vous demandera l'adresse IP de vos différentes machines.
+>
+> Pour le bon fonctionnement veuillez passez en root avant d'exécuter les scripts avec la commande ``` su - ```.
 
 Avant de vous lancer dans l'installation, veuillez télécharger Git sur vos deux machines
 ```
@@ -56,7 +56,11 @@ sudo . wazuhAutoUpdate.sh
 
 ## Installation d'un agent Wazuh
 
-Avant de vous lancer dans l'installation, veuillez télécharger Git sur la machine de l'agent
+> Le lancement de ces scripts vous demander l'adresse IP de la machine de l'agent.
+> 
+> Pour le bon fonctionnement veuillez passez en root avant d'exécuter les scripts avec la commande ``` su - ```.
+
+Avant de vous lancer dans l'installation, veuillez télécharger Git sur la machine de l'agent.
 
 ```
 apt install git
@@ -69,7 +73,7 @@ Pour commencer il faut cloner le dossier Agent sur le host agent depuis le GitHu
 sudo git clone https://github.com/LeGrandDevin/WAZUH-GRP3-ANSIBLE
 ```
 
-Puis il faut configurer l'agent
+Puis il faut configurer l'agent.
 
 ```
 cd WAZUH-GRP3-AGENT
