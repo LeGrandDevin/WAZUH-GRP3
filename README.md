@@ -60,7 +60,7 @@ sudo . wazuhAutoUpdate.sh
 Cette installation demande 3 machines au minimum pour fonctionner, une machine Ansible un server wazuh et un remote system ou sera installé l'agent.
 Le système d'éxploitation utilisé sur les VM est Debian.
 
-> Le lancement de ces scripts vous demander l'adresse IP de la machine de l'agent.
+> Le lancement de ces scripts vous demander les adresses IP de la machine de l'agent et du server wazuh.
 > 
 > Pour le bon fonctionnement veuillez passez en root avant d'exécuter les scripts avec la commande ``` su - ```.
 
