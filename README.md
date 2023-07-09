@@ -56,7 +56,9 @@ sudo . wazuhAutoUpdate.sh
 
 > Si vous rencontrez des erreurs dans une des étapes du script nous avons ajouté des commentaires dans le script expliquant chaque étape.
 
-## Installation d'un agent Wazuh
+## Installation d'un agent Wazu
+Cette installation demande 3 machines au minimum pour fonctionner, une machine Ansible un server wazuh et un remote system ou sera installé l'agent.
+Le système d'éxploitation utilisé sur les VM est Debian.
 
 > Le lancement de ces scripts vous demander l'adresse IP de la machine de l'agent.
 > 
