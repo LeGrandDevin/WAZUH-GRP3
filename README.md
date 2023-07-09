@@ -1,3 +1,5 @@
+## Installation du serveur Wazuh
+
 Cette installation demande 2 machines au minimum pour fonctionner, une machine Ansible et un remote system ou sera installé Wazuh.
 Le système d'éxploitation utilisé sur les VM est Debian.
 
@@ -42,12 +44,6 @@ Puis il faut configurer les règles OSSEC sur le remote system.
 cd WAZUH-GRP3-WAZUH
 sudo . rulesetConfiguration.sh
 ```
-Il vous faut configurer un agent sur une nouvelle machine
-
-```
-cd WAZUH-GRP3-AGENT
-sudo . scriptAgentVM.sh
-```
 
 Pour terminer il faut mettre en place un script permettant d'update les règles OSSEC toutes les semaines sur le remote system.
 
@@ -56,4 +52,28 @@ cd WAZUH-GRP3-WAZUH
 sudo . wazuhAutoUpdate.sh
 ```
 
-Si vous rencontrez des erreurs dans une des étapes du script nous avons ajouté des commentaires dans le script expliquant chaque étape.
+> Si vous rencontrez des erreurs dans une des étapes du script nous avons ajouté des commentaires dans le script expliquant chaque étape.
+
+## Installation d'un agent Wazuh
+
+Avant de vous lancer dans l'installation, veuillez télécharger Git sur la machine de l'agent
+
+```
+apt install git
+apt update
+```
+
+Pour commencer il faut cloner le dossier Agent sur le host agent depuis le GitHub du projet.
+
+```
+sudo git clone https://github.com/LeGrandDevin/WAZUH-GRP3-ANSIBLE
+```
+
+Puis il faut configurer l'agent
+
+```
+cd WAZUH-GRP3-AGENT
+sudo . scriptAgentVM.sh
+```
+
+> Si vous rencontrez des erreurs dans une des étapes du script nous avons ajouté des commentaires dans le script expliquant chaque étape.
