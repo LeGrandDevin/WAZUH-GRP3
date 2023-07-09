@@ -1,7 +1,7 @@
 ## Installation du serveur Wazuh
 
-❗ Cette installation demande 2 machines au minimum pour fonctionner, une machine Ansible et un remote system ou sera installé Wazuh.
-Le système d'éxploitation utilisé sur les VM est Debian. ❗
+‼️ Cette installation demande 2 machines au minimum pour fonctionner, une machine Ansible et un remote system ou sera installé Wazuh.
+Le système d'éxploitation utilisé sur les VM est Debian.
 
 Ce projet permet de configurer et d'utiliser Ansible comme outil d'automatisation pour déployer et configurer le système de détection d'intrusion Wazuh.
 
