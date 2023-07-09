@@ -82,4 +82,16 @@ cd WAZUH-GRP3-AGENT
 sudo . scriptAgentVM.sh
 ```
 
+si vous n'avez pas cloné le repo ansible sur le host ansible faite la commmande suivante
+
+```
+sudo git clone https://github.com/LeGrandDevin/WAZUH-GRP3-ANSIBLE
+```
+
+ensuite sur le host ansible lancer le script d'instalation de l'agent
+```
+cd WAZUH-GRP3-AGENT
+sudo . agentInstallScript.sh
+```
+
 > Si vous rencontrez des erreurs dans une des étapes du script nous avons ajouté des commentaires dans le script expliquant chaque étape.
