@@ -70,7 +70,7 @@ apt update
 Pour commencer il faut cloner le dossier Agent sur le host agent depuis le GitHub du projet.
 
 ```
-sudo git clone https://github.com/LeGrandDevin/WAZUH-GRP3-ANSIBLE
+sudo git clone https://github.com/LeGrandDevin/WAZUH-GRP3-AGENT
 ```
 
 Puis il faut configurer l'agent.
